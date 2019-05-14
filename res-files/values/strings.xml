@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Recipes</string>
+    <string name="header">My Recipes</string>
+    <string name="new_recipe_header">New recipe</string>
+    <string name="add_recipe_text">Add recipe</string>
+    <string name="add_recipe_name_text">Give your recipe a name</string>
+    <string name="add_item">Add Item</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="add_ingredient_header_text">Add an ingredient</string>
+    <string name="ingredient_name_hint">Ingredient name</string>
+    <string name="ingredient_header">Ingredients</string>
+    <string name="recipe_name_hint">Recipe name</string>
+    <string name="password_hint">Password</string>
+    <string name="next_button_text">Next</string>
+    <string name="no_ingredients_button_text">No more ingredients</string>
+    <string name="save_recipe_button_text">Save recipe</string>
+    <string name="add_ingredient_button_text">Add another ingredient</string>
+    <string name="add_step_button_text">Add another step</string>
+    <string name="current_ingredient">Current ingredient</string>
+    <string name="add_unit_of_measurement_text">Choose a unit of measurement for the ingredient</string>
+    <string name="amount_of_ingredient_text">Add the number of %1$s to be used in recipe</string>
+    <string name="add_step_text">Write out instructions for step %1$d of the recipe</string>
+    <string name="step_label">Step %1$d</string>
+    <string name="step_list">List of steps</string>
+    <string name="recipe_name_error">Type a name for your recipe to continue</string>
+    <string name="ingredient_name_error">Type the name of the ingredient to continue</string>
+    <string name="unit_of_measurement_error">Select a unit of measurement and type an amount to continue</string>
+    <string name="step_error">Type some instructions for the step to continue</string>
+    <string name="cups">Cups</string>
+    <string name="teaspoons">Teaspoons (tsp)</string>
+    <string name="tablespoons">Tablespoons (tbsp)</string>
+    <string name="pounds">Pounds (lb)</string>
+    <string name="grams">Grams (g)</string>
+    <string name="back">Back</string>
+</resources>

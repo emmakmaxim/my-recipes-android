@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_recipe_header"
+        android:id="@+id/newRecipeHeaderTextView"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_step_text"
+        android:id="@+id/addStepInstructions"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/newRecipeHeaderTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_label"
+        android:id="@+id/stepLabel"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/addStepInstructions" />
+
+    <EditText
+        android:id="@+id/stepEditText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:inputType="text|textMultiLine"
+        android:textSize="24sp"
+        android:gravity="top"
+        android:layout_below="@+id/stepLabel"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepEditText"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_colors"
+        android:text="@string/next_button_text"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+</RelativeLayout>

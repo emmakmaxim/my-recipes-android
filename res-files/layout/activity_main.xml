@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/header"
+            android:gravity="center_vertical|start"
+            android:paddingStart="10dp"
+            android:textSize="30sp"
+            android:id="@+id/header"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_recipe_text"
+            android:id="@+id/addRecipeTextView"
+            android:textSize="24sp"
+            android:paddingStart="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/header" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_item"
+            android:layout_alignStart="@id/addRecipeTextView"
+            android:contentDescription="@string/add_item"
+            android:src="@drawable/add_item_button"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/header"
+            android:background="@android:color/transparent"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipe_list"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/add_item">
+    </ListView>
+
+</RelativeLayout>
+
+
